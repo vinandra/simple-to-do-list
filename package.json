@@ -1,0 +1,27 @@
+{
+  "name": "simple-to-do-list",
+  "version": "1.0.0",
+  "description": "aplikasi to dolist sederhana",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir public -w",
+    "serve": "lite-server --baseDir public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shantuy/simple-to-do-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shantuy/simple-to-do-list/issues"
+  },
+  "homepage": "https://github.com/Shantuy/simple-to-do-list#readme",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "lite-server": "^2.6.1"
+  }
+}
